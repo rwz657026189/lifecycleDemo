@@ -1,0 +1,2 @@
+# lifecycle
+测试android:windowIsTranslucent对生命周期的影响
