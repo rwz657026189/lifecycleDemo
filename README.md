@@ -16,3 +16,5 @@
  - 点击返回键
    - 透明窗口：   MainActivity#onPause()-> MainActivity#onStop()->MainActivity#onDestroy()
    - 不透明窗口： SecondActivity#onPause()->MainActivity#onCreate()->MainActivity#onStart()->MainActivity#onRestoreInstanceState()->MainActivity#onResume()->SecondActivity#onStop()->SecondActivity#onDestroy()
+
+[详CSDN](https://blog.csdn.net/rwz657026189/article/details/102855174)
